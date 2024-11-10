@@ -97,6 +97,44 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .center-div {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    box-shadow: none;
+  }
+
+  .format-buttons {
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .format-buttons button {
+    padding: 5px 8px;
+    font-size: 14px;
+  }
+
+  .right-side {
+    line-height: 1.4;
+    overflow-y: auto;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+
 a {
   color: #e74c3c;
   text-decoration: none;
